@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Row" style="height: 60px; justify-content: flex-start; flex-direction: row; align-items: center;">
+        <ui:VisualElement name="Icon" style="background-image: url(&apos;project://database/Assets/M%20Studio/Art/Items/Icons/icon_kanda.png?fileID=2800000&amp;guid=30aad6458061a7f4e82a17399efc1564&amp;type=3#icon_kanda&apos;); height: 40px; width: 40px; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="Name" style="font-size: 18px;" />
+    </ui:VisualElement>
+</ui:UXML>
